@@ -6,6 +6,7 @@ cd nome-do-seu-projeto
 
 python manage.py startapp \[nome-do-app]
 
+<br><br>
 
 ### Para Criar uma View
 
@@ -21,6 +22,7 @@ class HelloWorld(View):
   def get(self, request):
     return HttpResponse("Hello world!")
 
+<br><br>
 
 ### Para configurar os endereços das Views
 
@@ -35,6 +37,7 @@ urlpatterns = \[
   path('app/', include('yourapp.urls')),
 ]
 
+<br><br>
 
 ### Para instalar os apps no app principal
 
@@ -44,6 +47,7 @@ INSTALLED_APPS = \[
   'yourapp',
 ]
 
+<br><br>
 
 ### Para rodar
 
