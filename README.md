@@ -1,10 +1,11 @@
 # Django Documentation
-
+'''
 django-admin startproject \[nome-do-seu-projeto]
 
 cd nome-do-seu-projeto
 
 python manage.py startapp \[nome-do-app]
+'''
 
 <br><br>
 
